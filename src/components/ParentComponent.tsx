@@ -4,7 +4,7 @@ function ParentComponent(){
     return (
     <>
     <h2>I am Parent component</h2>
-    <ChildComponent value={124}></ChildComponent>
+    <ChildComponent value={123}></ChildComponent>
     </>)
 }
 export default ParentComponent;

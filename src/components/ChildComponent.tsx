@@ -1,7 +1,8 @@
-function ChildComponent(props){
+function ChildComponent({ value }:Readonly<{value: number}>) {
     return (
         <>
-        <h3>Child Component the provided value is {props.value}</h3>
+        <div>just a div</div>
+        <h3>Child Component the provided value is {value}</h3>
         </>
     )
 }
